@@ -88,7 +88,7 @@
             // 
             // btnptclogin
             // 
-            this.btnptclogin.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnptclogin.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnptclogin.Location = new System.Drawing.Point(213, 114);
             this.btnptclogin.Name = "btnptclogin";
             this.btnptclogin.Size = new System.Drawing.Size(118, 35);
@@ -102,7 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightPink;
-            this.ClientSize = new System.Drawing.Size(354, 192);
+            this.ClientSize = new System.Drawing.Size(374, 205);
             this.Controls.Add(this.btnptclogin);
             this.Controls.Add(this.linkLabelptsignup);
             this.Controls.Add(this.textBoxptpassw);
