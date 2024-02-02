@@ -42,7 +42,7 @@
             this.lblptserial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblptserial.Location = new System.Drawing.Point(37, 39);
             this.lblptserial.Name = "lblptserial";
-            this.lblptserial.Size = new System.Drawing.Size(136, 24);
+            this.lblptserial.Size = new System.Drawing.Size(129, 22);
             this.lblptserial.TabIndex = 1;
             this.lblptserial.Text = "Serial Number:";
             // 
@@ -52,7 +52,7 @@
             this.lblptpassw.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.lblptpassw.Location = new System.Drawing.Point(71, 77);
             this.lblptpassw.Name = "lblptpassw";
-            this.lblptpassw.Size = new System.Drawing.Size(102, 24);
+            this.lblptpassw.Size = new System.Drawing.Size(99, 22);
             this.lblptpassw.TabIndex = 2;
             this.lblptpassw.Text = "Password: ";
             // 
@@ -80,7 +80,7 @@
             this.linkLabelptsignup.AutoSize = true;
             this.linkLabelptsignup.Location = new System.Drawing.Point(286, 167);
             this.linkLabelptsignup.Name = "linkLabelptsignup";
-            this.linkLabelptsignup.Size = new System.Drawing.Size(56, 17);
+            this.linkLabelptsignup.Size = new System.Drawing.Size(52, 16);
             this.linkLabelptsignup.TabIndex = 5;
             this.linkLabelptsignup.TabStop = true;
             this.linkLabelptsignup.Text = "Sign up";
@@ -88,12 +88,13 @@
             // 
             // btnptclogin
             // 
+            this.btnptclogin.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btnptclogin.Location = new System.Drawing.Point(213, 114);
             this.btnptclogin.Name = "btnptclogin";
             this.btnptclogin.Size = new System.Drawing.Size(118, 35);
             this.btnptclogin.TabIndex = 6;
             this.btnptclogin.Text = "Log in";
-            this.btnptclogin.UseVisualStyleBackColor = true;
+            this.btnptclogin.UseVisualStyleBackColor = false;
             this.btnptclogin.Click += new System.EventHandler(this.btnptclogin_Click);
             // 
             // aLoginPatient
